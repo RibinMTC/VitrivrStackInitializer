@@ -1,0 +1,41 @@
+
+************************************** 11/10/2020 13:58:04 ***********************************
+Using TensorFlow backend.
+2020-10-11 13:58:03.808739: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-10-11 13:58:03.812812: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3199980000 Hz
+2020-10-11 13:58:03.813239: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560911487240 executing computations on platform Host. Devices:
+2020-10-11 13:58:03.813253: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-11 13:58:03.813850: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-10-11 13:58:03.829719: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.830139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce RTX 2070 major: 7 minor: 5 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+2020-10-11 13:58:03.830940: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-10-11 13:58:03.833677: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-10-11 13:58:03.835704: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-10-11 13:58:03.836630: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-10-11 13:58:03.838851: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-10-11 13:58:03.840380: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-10-11 13:58:03.844522: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-10-11 13:58:03.844704: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.845068: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.845331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-10-11 13:58:03.845370: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-10-11 13:58:03.933151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-10-11 13:58:03.933171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-10-11 13:58:03.933178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-10-11 13:58:03.933312: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.933626: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.933905: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-10-11 13:58:03.934164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7347 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-10-11 13:58:03.935210: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560917165520 executing computations on platform CUDA. Devices:
+2020-10-11 13:58:03.935221: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-10-11 13:58:03.935811: I tensorflow/core/common_runtime/direct_session.cc:296] Device mapping:
+/job:localhost/replica:0/task:0/device:XLA_CPU:0 -> device: XLA_CPU device
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5
+/job:localhost/replica:0/task:0/device:XLA_GPU:0 -> device: XLA_GPU device
+
+Traceback (most recent call last):
+  File "mlsp_predictor_server.py", line 108, in <module>
+    in_str = input()
+EOFError: EOF when reading a line

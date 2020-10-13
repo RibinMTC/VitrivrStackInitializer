@@ -1,0 +1,9 @@
+{
+	"content_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/content-base",
+	"thumbnails_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/output-thumbnails",
+	"cineast_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/cineast",
+	"cineast_job_file":"example_job.json",
+	"cottontail_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/cottontaildb",
+	"vitrivr_ng_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/vitrivr-ng"
+
+}

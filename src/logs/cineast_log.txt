@@ -1,0 +1,19 @@
+
+************************************** 12/10/2020 14:51:01 ***********************************
+2020-10-12 14:51:04.100 [main] INFO o.v.c.s.c.Config - Config file loaded!
+2020-10-12 14:51:04.216 [main] INFO o.v.c.c.d.c.CottontailWrapper - Connected to Cottontail in 99 ms at localhost:1865
+2020-10-12 14:51:04.772 [main] DEBUG o.v.c.c.d.d.r.TagReader - Tag Reader initialized in 516 ms
+2020-10-12 14:51:04.795 [main] INFO o.e.j.u.log - Logging initialized @1265ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-10-12 14:51:04.848 [main] WARN o.e.j.s.h.AbstractHandler - No Server set for WebjarHandler@3b0ee03a{STARTING}
+2020-10-12 14:51:04.865 [main] WARN o.e.j.s.h.AbstractHandler - No Server set for WebjarHandler@1d25c1c{STARTING}
+2020-10-12 14:51:04.900 [main] INFO o.e.j.s.Server - jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+2020-10-12 14:51:04.927 [main] INFO o.e.j.s.AbstractConnector - Started ServerConnector@6050462a{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+2020-10-12 14:51:04.927 [main] INFO o.e.j.s.Server - Started @1398ms
+2020-10-12 14:51:04.928 [main] INFO o.v.c.a.GRPCEndpoint - Starting GRPC Endpoint at port 4570
+2020-10-12 14:51:04.948 [main] INFO o.v.c.s.m.PrometheusServer - Prometheus monitoring not enabled
+Oct 12, 2020 2:51:04 PM org.jline.utils.Log logr
+WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+Welcome to the interactive Cineast CLI.
+cineast> 2020-10-12 14:51:43.339 [qtp1260127127-27] DEBUG o.v.c.a.w.WebsocketAPI - New session /127.0.0.1:57776 connected!
+2020-10-12 14:52:21.282 [qtp1260127127-25] DEBUG o.v.c.a.w.WebsocketAPI - Connection of session closed (Code: 1006, Reason: Disconnected).
+2020-10-12 14:52:21.282 [main] INFO o.e.j.s.AbstractConnector - Stopped ServerConnector@6050462a{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
