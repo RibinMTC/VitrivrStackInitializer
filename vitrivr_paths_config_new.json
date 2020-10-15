@@ -1,4 +1,5 @@
 {
+	"main_ml_predictor_server_script": "/local/home/cribin/Documents/AestheticsBackup/MainMlApi/src/main_ml_api.py",
 	"content_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/content-base",
 	"thumbnails_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/output-thumbnails",
 	"cineast_base":"/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/cineast",

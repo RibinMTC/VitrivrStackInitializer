@@ -1,16 +1,16 @@
 
-************************************** 12/10/2020 14:51:01 ***********************************
+************************************** 15/10/2020 16:21:29 ***********************************
 Your global Angular CLI version (10.1.1) is greater than your local
 version (9.1.12). The local Angular CLI version is used.
 
 To disable this warning use "ng config -g cli.warnings.versionMismatch false".
-[33mWarning:[0m Entry point 'ng5-slider' contains deep imports into '/home/cribin/Vitrivir_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/Subject', '/home/cribin/Vitrivir_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/Subscription', '/home/cribin/Vitrivir_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/operators'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
+[33mWarning:[0m Entry point 'ng5-slider' contains deep imports into '/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/Subject', '/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/Subscription', '/local/home/cribin/Documents/AestheticsBackup/Aesthetics_ContentViewer_Main/Vitrivr_Local_Installation/vitrivr-ng/node_modules/ng5-slider/node_modules/rxjs/operators'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
 
 chunk {main} main.js, main.js.map (main) 1.33 MB [initial] [rendered]
 chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 216 kB [initial] [rendered]
 chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
-chunk {styles} styles.js, styles.js.map (styles) 352 kB [initial] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 353 kB [initial] [rendered]
 chunk {vendor} vendor.js, vendor.js.map (vendor) 9.86 MB [initial] [rendered]
-Date: 2020-10-12T12:51:40.790Z - Hash: 5b62f7a1f293be990810 - Time: 21481ms
+Date: 2020-10-15T14:21:48.998Z - Hash: 1ae259160b762d4623b2 - Time: 15115ms
 ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
 : Compiled successfully.

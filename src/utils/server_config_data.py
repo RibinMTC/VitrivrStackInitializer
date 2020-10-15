@@ -2,6 +2,7 @@ import json
 
 
 class ServerConfigData:
+    main_ml_predictor_server_script = ""
     server_content_base_path_str = ""
     thumbnails_base_path_str = ""
     cineast_base_path_str = ""
@@ -13,6 +14,7 @@ class ServerConfigData:
     def __init__(self):
         with open("../vitrivr_paths_config_new.json") as json_paths_file:
             data = json.load(json_paths_file)
+            self.main_ml_predictor_server_script = data['main_ml_predictor_server_script']
             self.server_content_base_path_str = data['content_base']
             self.thumbnails_base_path_str = data['thumbnails_base']
             self.cineast_base_path_str = data['cineast_base']

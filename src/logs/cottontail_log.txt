@@ -1,11 +1,5654 @@
 
-************************************** 12/10/2020 14:51:01 ***********************************
-2020-10-12 14:51:02 INFO  CottontailGrpcServer:62 - Cottontail DB server is up and running at port 1865 ! Hop along...
-Oct 12, 2020 2:51:02 PM org.jline.utils.Log logr
+************************************** 15/10/2020 16:21:29 ***********************************
+2020-10-15 16:21:30 INFO  CottontailGrpcServer:62 - Cottontail DB server is up and running at port 1865 ! Hop along...
+Oct 15, 2020 4:21:30 PM org.jline.utils.Log logr
 WARNING: Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
-cottontaildb> 2020-10-12 14:51:04 TRACE CottonDQLService:41 - Parsing & binding query cin-170 took 319ms.
-2020-10-12 14:51:04 TRACE CottonDQLService:46 - Executing query cin-170 took 13ms.
-2020-10-12 14:51:04 TRACE CottonDQLService:153 - Position 0 of query cin-170 yielded no results.
-2020-10-12 14:51:04 INFO  CottonDQLService:52 - Query cin-170 took 334ms.
+cottontaildb> 2020-10-15 16:21:32 TRACE CottonDQLService:41 - Parsing & binding query cin-339 took 134ms.
+2020-10-15 16:21:32 TRACE CottonDQLService:46 - Executing query cin-339 took 13ms.
+2020-10-15 16:21:32 TRACE CottonDQLService:153 - Position 0 of query cin-339 yielded no results.
+2020-10-15 16:21:32 INFO  CottonDQLService:52 - Query cin-339 took 149ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-196 took 7ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-196 took 8ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-196 took 4ms.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-196 took 20ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-188 took 1ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-188 took 1ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-188 took 0ms.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-188 took 3ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-720 took 10ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-720 took 4ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-720 took 2ms.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-720 took 17ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-633 took 5ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-633 took 1ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-633 took 0ms.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-633 took 8ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-043 took 4ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-043 took 1ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:153 - Position 0 of query cin-043 yielded no results.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-043 took 5ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:41 - Parsing & binding query cin-484 took 2ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:46 - Executing query cin-484 took 1ms.
+2020-10-15 16:22:51 TRACE CottonDQLService:153 - Position 0 of query cin-484 yielded no results.
+2020-10-15 16:22:51 INFO  CottonDQLService:52 - Query cin-484 took 4ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:41 - Parsing & binding query cin-598 took 1ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:46 - Executing query cin-598 took 2ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:153 - Position 0 of query cin-598 yielded no results.
+2020-10-15 16:22:55 INFO  CottonDQLService:52 - Query cin-598 took 3ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:41 - Parsing & binding query cin-364 took 0ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:46 - Executing query cin-364 took 1ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:153 - Position 0 of query cin-364 yielded no results.
+2020-10-15 16:22:55 INFO  CottonDQLService:52 - Query cin-364 took 2ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:41 - Parsing & binding query cin-166 took 1ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:46 - Executing query cin-166 took 1ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:153 - Position 0 of query cin-166 yielded no results.
+2020-10-15 16:22:55 INFO  CottonDQLService:52 - Query cin-166 took 3ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:41 - Parsing & binding query cin-708 took 0ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:46 - Executing query cin-708 took 1ms.
+2020-10-15 16:22:55 TRACE CottonDQLService:153 - Position 0 of query cin-708 yielded no results.
+2020-10-15 16:22:55 INFO  CottonDQLService:52 - Query cin-708 took 1ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:41 - Parsing & binding query cin-516 took 0ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:46 - Executing query cin-516 took 2ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-516 took 1ms.
+2020-10-15 16:23:00 INFO  CottonDQLService:52 - Query cin-516 took 3ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:41 - Parsing & binding query cin-159 took 1ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:46 - Executing query cin-159 took 1ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-159 took 0ms.
+2020-10-15 16:23:00 INFO  CottonDQLService:52 - Query cin-159 took 3ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:41 - Parsing & binding query cin-381 took 0ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:46 - Executing query cin-381 took 1ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-381 took 1ms.
+2020-10-15 16:23:00 INFO  CottonDQLService:52 - Query cin-381 took 2ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:41 - Parsing & binding query cin-340 took 1ms.
+2020-10-15 16:23:00 TRACE CottonDQLService:46 - Executing query cin-340 took 1ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-340 took 1ms.
+2020-10-15 16:23:01 INFO  CottonDQLService:52 - Query cin-340 took 3ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:41 - Parsing & binding query cin-108 took 1ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:41 - Parsing & binding query cin-099 took 1ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:46 - Executing query cin-108 took 1ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:46 - Executing query cin-099 took 1ms.
+2020-10-15 16:23:01 TRACE CottonDQLService:153 - Position 0 of query cin-099 yielded no results.
+2020-10-15 16:23:01 TRACE CottonDQLService:153 - Position 0 of query cin-108 yielded no results.
+2020-10-15 16:23:01 INFO  CottonDQLService:52 - Query cin-099 took 2ms.
+2020-10-15 16:23:01 INFO  CottonDQLService:52 - Query cin-108 took 2ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-760 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-760 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-760 took 1ms.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-760 took 3ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-922 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-922 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-922 took 0ms.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-922 took 2ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-491 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-491 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-491 took 1ms.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-491 took 3ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-499 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-499 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-499 took 0ms.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-499 took 2ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-560 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:41 - Parsing & binding query cin-209 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-560 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:46 - Executing query cin-209 took 1ms.
+2020-10-15 16:23:07 TRACE CottonDQLService:153 - Position 0 of query cin-560 yielded no results.
+2020-10-15 16:23:07 TRACE CottonDQLService:153 - Position 0 of query cin-209 yielded no results.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-560 took 2ms.
+2020-10-15 16:23:07 INFO  CottonDQLService:52 - Query cin-209 took 2ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-115 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-115 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-115 took 1ms.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-115 took 2ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-702 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-702 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-702 took 0ms.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-702 took 2ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-843 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-843 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-843 took 1ms.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-843 took 3ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-741 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-741 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-741 took 0ms.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-741 took 2ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-174 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:41 - Parsing & binding query cin-094 took 0ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-174 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:46 - Executing query cin-094 took 1ms.
+2020-10-15 16:23:11 TRACE CottonDQLService:153 - Position 0 of query cin-174 yielded no results.
+2020-10-15 16:23:11 TRACE CottonDQLService:153 - Position 0 of query cin-094 yielded no results.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-174 took 1ms.
+2020-10-15 16:23:11 INFO  CottonDQLService:52 - Query cin-094 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-200 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-200 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-200 took 1ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-200 took 4ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-267 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-267 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-267 took 1ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-267 took 3ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-961 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-961 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-961 took 1ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-961 took 3ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-938 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-938 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-938 took 0ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-938 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-920 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-564 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-920 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-564 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:153 - Position 0 of query cin-920 yielded no results.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-920 took 2ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:153 - Position 0 of query cin-564 yielded no results.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-564 took 3ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 5ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 0ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 9ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:48 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_huehistogram"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1108.652
+        vector: 2217.304
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_huehistogram'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 0ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 0ms.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:48 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_MedianFuzzyHist"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_MedianFuzzyHist'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-826 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-826 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:153 - Position 0 of query cin-826 yielded no results.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-826 took 2ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:41 - Parsing & binding query cin-337 took 1ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:46 - Executing query cin-337 took 0ms.
+2020-10-15 16:23:48 TRACE CottonDQLService:153 - Position 0 of query cin-337 yielded no results.
+2020-10-15 16:23:48 INFO  CottonDQLService:52 - Query cin-337 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 2ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 0ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 0ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 2ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 5ms.
+2020-10-15 16:23:49 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorARP44Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 83.07586
+        vector: 1023.3796
+        vector: 0.18522292
+        vector: 992.2843
+        vector: 1.8992976
+        vector: 680.79205
+        vector: 6.2371254
+        vector: 557.89087
+        vector: -0.20600109
+        vector: 73.243256
+        vector: 0.31750146
+        vector: 56.30365
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 87.76266
+        vector: 739.7829
+        vector: 1.0395923
+        vector: 717.4144
+        vector: 0.7356643
+        vector: 500.65576
+        vector: 35.91288
+        vector: 2158.2876
+        vector: 0.04319063
+        vector: 340.9709
+        vector: 0.68807065
+        vector: 241.48444
+        vector: 1.6117349
+        vector: 146.46233
+        vector: -0.42418593
+        vector: 47.57499
+        vector: 0.43005645
+        vector: 40.51384
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 91.164825
+        vector: 422.57797
+        vector: 2.8605802
+        vector: 926.65247
+        vector: -0.32469508
+        vector: 593.4137
+        vector: 40.19381
+        vector: 2217.5762
+        vector: 1.2789509
+        vector: 482.378
+        vector: -0.024613263
+        vector: 306.31522
+        vector: 0.04519048
+        vector: 4.0359507
+        vector: -0.027163818
+        vector: 2.3773499
+        vector: 0.026220927
+        vector: 2.1893833
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 79.22951
+        vector: 1296.359
+        vector: 0.053994637
+        vector: 881.0829
+        vector: 1.7897815
+        vector: 612.3796
+        vector: 1.4608854
+        vector: 133.88998
+        vector: -0.100987054
+        vector: 36.187256
+        vector: 0.15093796
+        vector: 26.19216
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.914352
+        vector: 0.914352
+        vector: 0.914352
+        vector: 0.06608495
+        vector: 0.06608495
+        vector: 0.06608495
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.94992226
+        vector: 0.94992226
+        vector: 0.94992226
+        vector: 0.3881322
+        vector: 0.3881322
+        vector: 0.3881322
+        vector: 0.018358637
+        vector: 0.018358637
+        vector: 0.018358637
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.982588
+        vector: 0.982588
+        vector: 0.982588
+        vector: 0.43680522
+        vector: 0.43680522
+        vector: 0.43680522
+        vector: 4.350283E-4
+        vector: 4.350283E-4
+        vector: 4.350283E-4
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8683789
+        vector: 0.8683789
+        vector: 0.8683789
+        vector: 0.015223955
+        vector: 0.015223955
+        vector: 0.015223955
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorARP44Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 3ms.
+2020-10-15 16:23:49 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorGrid8Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.2727576
+        vector: -0.12325886
+        vector: 0.12129183
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 79.10115
+        vector: -0.20376845
+        vector: 2.0906277
+        vector: 81.35098
+        vector: 0.988255
+        vector: 0.56998426
+        vector: 75.528244
+        vector: -1.0881354
+        vector: 2.6285067
+        vector: 2.928786
+        vector: -0.65975535
+        vector: 0.70117635
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 65.9333
+        vector: -0.14346424
+        vector: 1.7268517
+        vector: 88.050964
+        vector: 2.7067664
+        vector: -0.25996026
+        vector: 79.995316
+        vector: 2.375908
+        vector: 0.15078473
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0027998697
+        vector: 0.0027998697
+        vector: 0.0027998697
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8641556
+        vector: 0.8641556
+        vector: 0.8641556
+        vector: 0.87517446
+        vector: 0.87517446
+        vector: 0.87517446
+        vector: 0.822524
+        vector: 0.822524
+        vector: 0.822524
+        vector: 0.03431372
+        vector: 0.03431372
+        vector: 0.03431372
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.72211516
+        vector: 0.72211516
+        vector: 0.72211516
+        vector: 0.94918555
+        vector: 0.94918555
+        vector: 0.94918555
+        vector: 0.8699417
+        vector: 0.8699417
+        vector: 0.8699417
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorGrid8Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:49 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_CLDNormalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 1865.0
+        vector: 4.0
+        vector: 0.0
+        vector: -1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1024.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1024.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_CLDNormalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 2ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 1ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query 9b82c98d-a77c-4bc8-a909-0bf136ecb098 took 4ms.
+2020-10-15 16:23:49 ERROR CottonDQLService:58 - Error while executing query queryId: "9b82c98d-a77c-4bc8-a909-0bf136ecb098"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_SubDivMedianFuzzyColor"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_SubDivMedianFuzzyColor'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-886 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-886 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-886 took 1ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-886 took 2ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-674 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-674 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:150 - Sending back 4 rows for position 0 of query cin-674 took 0ms.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-674 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-303 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-303 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-590 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:153 - Position 0 of query cin-303 yielded no results.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-303 took 3ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-590 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:153 - Position 0 of query cin-590 yielded no results.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-590 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-022 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-022 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:153 - Position 0 of query cin-022 yielded no results.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-022 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:41 - Parsing & binding query cin-147 took 0ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:46 - Executing query cin-147 took 1ms.
+2020-10-15 16:23:49 TRACE CottonDQLService:153 - Position 0 of query cin-147 yielded no results.
+2020-10-15 16:23:49 INFO  CottonDQLService:52 - Query cin-147 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-460 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-460 took 3ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-460 took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-460 took 5ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-626 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-626 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-626 took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-626 took 4ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_MedianFuzzyHist"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_MedianFuzzyHist'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_huehistogram"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1108.652
+        vector: 2217.304
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_huehistogram'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-876 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-876 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-876 yielded no results.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-876 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-176 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-176 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-176 yielded no results.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-176 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorGrid8Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.2727576
+        vector: -0.12325886
+        vector: 0.12129183
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 79.10115
+        vector: -0.20376845
+        vector: 2.0906277
+        vector: 81.35098
+        vector: 0.988255
+        vector: 0.56998426
+        vector: 75.528244
+        vector: -1.0881354
+        vector: 2.6285067
+        vector: 2.928786
+        vector: -0.65975535
+        vector: 0.70117635
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 65.9333
+        vector: -0.14346424
+        vector: 1.7268517
+        vector: 88.050964
+        vector: 2.7067664
+        vector: -0.25996026
+        vector: 79.995316
+        vector: 2.375908
+        vector: 0.15078473
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0027998697
+        vector: 0.0027998697
+        vector: 0.0027998697
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8641556
+        vector: 0.8641556
+        vector: 0.8641556
+        vector: 0.87517446
+        vector: 0.87517446
+        vector: 0.87517446
+        vector: 0.822524
+        vector: 0.822524
+        vector: 0.822524
+        vector: 0.03431372
+        vector: 0.03431372
+        vector: 0.03431372
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.72211516
+        vector: 0.72211516
+        vector: 0.72211516
+        vector: 0.94918555
+        vector: 0.94918555
+        vector: 0.94918555
+        vector: 0.8699417
+        vector: 0.8699417
+        vector: 0.8699417
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorGrid8Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorARP44Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 83.07586
+        vector: 1023.3796
+        vector: 0.18522292
+        vector: 992.2843
+        vector: 1.8992976
+        vector: 680.79205
+        vector: 6.2371254
+        vector: 557.89087
+        vector: -0.20600109
+        vector: 73.243256
+        vector: 0.31750146
+        vector: 56.30365
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 87.76266
+        vector: 739.7829
+        vector: 1.0395923
+        vector: 717.4144
+        vector: 0.7356643
+        vector: 500.65576
+        vector: 35.91288
+        vector: 2158.2876
+        vector: 0.04319063
+        vector: 340.9709
+        vector: 0.68807065
+        vector: 241.48444
+        vector: 1.6117349
+        vector: 146.46233
+        vector: -0.42418593
+        vector: 47.57499
+        vector: 0.43005645
+        vector: 40.51384
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 91.164825
+        vector: 422.57797
+        vector: 2.8605802
+        vector: 926.65247
+        vector: -0.32469508
+        vector: 593.4137
+        vector: 40.19381
+        vector: 2217.5762
+        vector: 1.2789509
+        vector: 482.378
+        vector: -0.024613263
+        vector: 306.31522
+        vector: 0.04519048
+        vector: 4.0359507
+        vector: -0.027163818
+        vector: 2.3773499
+        vector: 0.026220927
+        vector: 2.1893833
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 79.22951
+        vector: 1296.359
+        vector: 0.053994637
+        vector: 881.0829
+        vector: 1.7897815
+        vector: 612.3796
+        vector: 1.4608854
+        vector: 133.88998
+        vector: -0.100987054
+        vector: 36.187256
+        vector: 0.15093796
+        vector: 26.19216
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.914352
+        vector: 0.914352
+        vector: 0.914352
+        vector: 0.06608495
+        vector: 0.06608495
+        vector: 0.06608495
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.94992226
+        vector: 0.94992226
+        vector: 0.94992226
+        vector: 0.3881322
+        vector: 0.3881322
+        vector: 0.3881322
+        vector: 0.018358637
+        vector: 0.018358637
+        vector: 0.018358637
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.982588
+        vector: 0.982588
+        vector: 0.982588
+        vector: 0.43680522
+        vector: 0.43680522
+        vector: 0.43680522
+        vector: 4.350283E-4
+        vector: 4.350283E-4
+        vector: 4.350283E-4
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8683789
+        vector: 0.8683789
+        vector: 0.8683789
+        vector: 0.015223955
+        vector: 0.015223955
+        vector: 0.015223955
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorARP44Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_CLDNormalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 1865.0
+        vector: 4.0
+        vector: 0.0
+        vector: -1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1024.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1024.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_CLDNormalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 ERROR CottonDQLService:58 - Error while executing query queryId: "73f9ab2c-755b-4162-bb09-8a2b7b904bbd"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_SubDivMedianFuzzyColor"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_SubDivMedianFuzzyColor'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query 73f9ab2c-755b-4162-bb09-8a2b7b904bbd took 2ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-603 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-603 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-603 took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-603 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-002 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-002 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-002 took 0ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-002 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-440 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-034 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-126 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-440 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-034 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-440 yielded no results.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-126 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-034 yielded no results.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-440 took 1ms.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-034 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-126 yielded no results.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-126 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:41 - Parsing & binding query cin-770 took 1ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:46 - Executing query cin-770 took 0ms.
+2020-10-15 16:24:02 TRACE CottonDQLService:153 - Position 0 of query cin-770 yielded no results.
+2020-10-15 16:24:02 INFO  CottonDQLService:52 - Query cin-770 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-387 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-387 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-387 took 1ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-387 took 4ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-896 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-896 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-896 took 1ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-896 took 3ms.
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_huehistogram"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 2786.6145
+        vector: 3207.4458
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_huehistogram'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_MedianFuzzyHist"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_MedianFuzzyHist'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-036 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-036 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-036 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-036 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-763 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-763 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-763 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-763 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 2ms.
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_CLDNormalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 1849.0
+        vector: 4.0
+        vector: -1.0
+        vector: -12.0
+        vector: -5.0
+        vector: -3.0
+        vector: 1016.0
+        vector: 2.0
+        vector: 0.0
+        vector: 1017.0
+        vector: 1.0
+        vector: -1.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_CLDNormalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 2ms.
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorARP44Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 94.33346
+        vector: 376.63464
+        vector: -2.6710236
+        vector: 409.801
+        vector: 5.337963
+        vector: 727.80493
+        vector: 86.09824
+        vector: 975.4893
+        vector: -5.4293303
+        vector: 592.9235
+        vector: 7.6729784
+        vector: 870.4311
+        vector: 9.537053
+        vector: 820.6392
+        vector: -1.0390798
+        vector: 128.04033
+        vector: 1.4228684
+        vector: 169.308
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 92.13777
+        vector: 520.86676
+        vector: -4.422646
+        vector: 524.93604
+        vector: 7.365165
+        vector: 881.27594
+        vector: 85.73643
+        vector: 920.70776
+        vector: -7.164502
+        vector: 799.52625
+        vector: 10.653757
+        vector: 1275.1478
+        vector: 19.527925
+        vector: 1503.0994
+        vector: -2.554553
+        vector: 251.9552
+        vector: 3.1660807
+        vector: 277.65894
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 57.74197
+        vector: 2356.9011
+        vector: -0.6465426
+        vector: 177.38382
+        vector: 2.535482
+        vector: 457.62158
+        vector: 21.703209
+        vector: 1657.0166
+        vector: -0.40783066
+        vector: 92.38449
+        vector: 0.8953553
+        vector: 181.32922
+        vector: 3.15947
+        vector: 296.5315
+        vector: -0.13128048
+        vector: 25.35706
+        vector: 0.22290996
+        vector: 32.459423
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 53.70455
+        vector: 2382.5703
+        vector: -0.6380697
+        vector: 211.86574
+        vector: 2.197883
+        vector: 456.3006
+        vector: 11.116686
+        vector: 952.06976
+        vector: -0.48542312
+        vector: 79.22867
+        vector: 0.9858507
+        vector: 154.29874
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorARP44Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_SubDivMedianFuzzyColor"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_SubDivMedianFuzzyColor'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 3ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 ERROR CottonDQLService:58 - Error while executing query queryId: "7fa1fd3e-f315-43a4-b429-aaf0db5145d6"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorGrid8Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 56.75338
+        vector: -5.5072875
+        vector: 7.399399
+        vector: 88.4198
+        vector: -6.4309545
+        vector: 8.220227
+        vector: 77.70564
+        vector: -7.0611615
+        vector: 9.8843
+        vector: 58.918816
+        vector: -4.330729
+        vector: 6.1699915
+        vector: 5.336253
+        vector: -0.78558886
+        vector: 0.922627
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 75.22834
+        vector: -3.4729877
+        vector: 6.2744455
+        vector: 94.0169
+        vector: -3.7718475
+        vector: 6.265465
+        vector: 91.508835
+        vector: -4.1067257
+        vector: 7.5061975
+        vector: 88.08391
+        vector: -9.330594
+        vector: 12.755754
+        vector: 26.689453
+        vector: -4.5560913
+        vector: 5.7650404
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 25.519653
+        vector: -1.0530747
+        vector: 2.1033275
+        vector: 45.506275
+        vector: -0.5690226
+        vector: 1.9141277
+        vector: 48.39208
+        vector: -0.513963
+        vector: 2.108299
+        vector: 49.691113
+        vector: -1.012202
+        vector: 2.1004972
+        vector: 11.71509
+        vector: -0.46235356
+        vector: 0.79264945
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorGrid8Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query 7fa1fd3e-f315-43a4-b429-aaf0db5145d6 took 3ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-585 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-585 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-585 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-585 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-089 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-089 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-089 took 0ms.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-089 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-782 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-810 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-090 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-782 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-810 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-090 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-810 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-810 took 1ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-782 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-782 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-090 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-090 took 2ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:41 - Parsing & binding query cin-227 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:46 - Executing query cin-227 took 0ms.
+2020-10-15 16:24:39 TRACE CottonDQLService:153 - Position 0 of query cin-227 yielded no results.
+2020-10-15 16:24:39 INFO  CottonDQLService:52 - Query cin-227 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:41 - Parsing & binding query cin-631 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:46 - Executing query cin-631 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-631 took 0ms.
+2020-10-15 16:25:01 INFO  CottonDQLService:52 - Query cin-631 took 2ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:41 - Parsing & binding query cin-157 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:46 - Executing query cin-157 took 0ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-157 took 1ms.
+2020-10-15 16:25:01 INFO  CottonDQLService:52 - Query cin-157 took 2ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:01 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_MedianFuzzyHist"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_MedianFuzzyHist'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:01 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_huehistogram"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 2786.6145
+        vector: 3207.4458
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_huehistogram'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:01 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:01 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:01 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-999 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-999 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-999 yielded no results.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-999 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-775 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-775 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-775 yielded no results.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-775 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_SubDivMedianFuzzyColor"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_SubDivMedianFuzzyColor'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:02 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorARP44Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 94.33346
+        vector: 376.63464
+        vector: -2.6710236
+        vector: 409.801
+        vector: 5.337963
+        vector: 727.80493
+        vector: 86.09824
+        vector: 975.4893
+        vector: -5.4293303
+        vector: 592.9235
+        vector: 7.6729784
+        vector: 870.4311
+        vector: 9.537053
+        vector: 820.6392
+        vector: -1.0390798
+        vector: 128.04033
+        vector: 1.4228684
+        vector: 169.308
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 92.13777
+        vector: 520.86676
+        vector: -4.422646
+        vector: 524.93604
+        vector: 7.365165
+        vector: 881.27594
+        vector: 85.73643
+        vector: 920.70776
+        vector: -7.164502
+        vector: 799.52625
+        vector: 10.653757
+        vector: 1275.1478
+        vector: 19.527925
+        vector: 1503.0994
+        vector: -2.554553
+        vector: 251.9552
+        vector: 3.1660807
+        vector: 277.65894
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 57.74197
+        vector: 2356.9011
+        vector: -0.6465426
+        vector: 177.38382
+        vector: 2.535482
+        vector: 457.62158
+        vector: 21.703209
+        vector: 1657.0166
+        vector: -0.40783066
+        vector: 92.38449
+        vector: 0.8953553
+        vector: 181.32922
+        vector: 3.15947
+        vector: 296.5315
+        vector: -0.13128048
+        vector: 25.35706
+        vector: 0.22290996
+        vector: 32.459423
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 53.70455
+        vector: 2382.5703
+        vector: -0.6380697
+        vector: 211.86574
+        vector: 2.197883
+        vector: 456.3006
+        vector: 11.116686
+        vector: 952.06976
+        vector: -0.48542312
+        vector: 79.22867
+        vector: 0.9858507
+        vector: 154.29874
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorARP44Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_CLDNormalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 1849.0
+        vector: 4.0
+        vector: -1.0
+        vector: -12.0
+        vector: -5.0
+        vector: -3.0
+        vector: 1016.0
+        vector: 2.0
+        vector: 0.0
+        vector: 1017.0
+        vector: 1.0
+        vector: -1.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_CLDNormalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query e992524e-51f1-4116-b02c-f33c9f01aac3 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query e992524e-51f1-4116-b02c-f33c9f01aac3 took 1ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query e992524e-51f1-4116-b02c-f33c9f01aac3 took 2ms.
+2020-10-15 16:25:02 ERROR CottonDQLService:58 - Error while executing query queryId: "e992524e-51f1-4116-b02c-f33c9f01aac3"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorGrid8Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 56.75338
+        vector: -5.5072875
+        vector: 7.399399
+        vector: 88.4198
+        vector: -6.4309545
+        vector: 8.220227
+        vector: 77.70564
+        vector: -7.0611615
+        vector: 9.8843
+        vector: 58.918816
+        vector: -4.330729
+        vector: 6.1699915
+        vector: 5.336253
+        vector: -0.78558886
+        vector: 0.922627
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 75.22834
+        vector: -3.4729877
+        vector: 6.2744455
+        vector: 94.0169
+        vector: -3.7718475
+        vector: 6.265465
+        vector: 91.508835
+        vector: -4.1067257
+        vector: 7.5061975
+        vector: 88.08391
+        vector: -9.330594
+        vector: 12.755754
+        vector: 26.689453
+        vector: -4.5560913
+        vector: 5.7650404
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 25.519653
+        vector: -1.0530747
+        vector: 2.1033275
+        vector: 45.506275
+        vector: -0.5690226
+        vector: 1.9141277
+        vector: 48.39208
+        vector: -0.513963
+        vector: 2.108299
+        vector: 49.691113
+        vector: -1.012202
+        vector: 2.1004972
+        vector: 11.71509
+        vector: -0.46235356
+        vector: 0.79264945
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorGrid8Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-099 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-099 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-099 took 1ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-099 took 2ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-420 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-420 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-420 took 0ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-420 took 2ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-375 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-932 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-738 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-932 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-738 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-375 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-738 yielded no results.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-375 yielded no results.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-375 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-932 yielded no results.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-738 took 1ms.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-932 took 1ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:41 - Parsing & binding query cin-982 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:46 - Executing query cin-982 took 0ms.
+2020-10-15 16:25:02 TRACE CottonDQLService:153 - Position 0 of query cin-982 yielded no results.
+2020-10-15 16:25:02 INFO  CottonDQLService:52 - Query cin-982 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-984 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-984 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-984 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-984 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-218 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-218 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-218 took 1ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-218 took 2ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_MedianFuzzyHist"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_MedianFuzzyHist'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_huehistogram"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 2786.6145
+        vector: 3207.4458
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_huehistogram'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-691 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-691 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-691 yielded no results.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-691 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-331 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-331 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-331 yielded no results.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-331 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_CLDNormalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 1849.0
+        vector: 4.0
+        vector: -1.0
+        vector: -12.0
+        vector: -5.0
+        vector: -3.0
+        vector: 1016.0
+        vector: 2.0
+        vector: 0.0
+        vector: 1017.0
+        vector: 1.0
+        vector: -1.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_CLDNormalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_SubDivMedianFuzzyColor"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    distance: CHISQUARED
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_SubDivMedianFuzzyColor'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorARP44Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 94.33346
+        vector: 376.63464
+        vector: -2.6710236
+        vector: 409.801
+        vector: 5.337963
+        vector: 727.80493
+        vector: 86.09824
+        vector: 975.4893
+        vector: -5.4293303
+        vector: 592.9235
+        vector: 7.6729784
+        vector: 870.4311
+        vector: 9.537053
+        vector: 820.6392
+        vector: -1.0390798
+        vector: 128.04033
+        vector: 1.4228684
+        vector: 169.308
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 92.13777
+        vector: 520.86676
+        vector: -4.422646
+        vector: 524.93604
+        vector: 7.365165
+        vector: 881.27594
+        vector: 85.73643
+        vector: 920.70776
+        vector: -7.164502
+        vector: 799.52625
+        vector: 10.653757
+        vector: 1275.1478
+        vector: 19.527925
+        vector: 1503.0994
+        vector: -2.554553
+        vector: 251.9552
+        vector: 3.1660807
+        vector: 277.65894
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 57.74197
+        vector: 2356.9011
+        vector: -0.6465426
+        vector: 177.38382
+        vector: 2.535482
+        vector: 457.62158
+        vector: 21.703209
+        vector: 1657.0166
+        vector: -0.40783066
+        vector: 92.38449
+        vector: 0.8953553
+        vector: 181.32922
+        vector: 3.15947
+        vector: 296.5315
+        vector: -0.13128048
+        vector: 25.35706
+        vector: 0.22290996
+        vector: 32.459423
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 53.70455
+        vector: 2382.5703
+        vector: -0.6380697
+        vector: 211.86574
+        vector: 2.197883
+        vector: 456.3006
+        vector: 11.116686
+        vector: 952.06976
+        vector: -0.48542312
+        vector: 79.22867
+        vector: 0.9858507
+        vector: 154.29874
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.9464356
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.108346984
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.97716695
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.21445665
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.6072469
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.234593
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.034766275
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.57651
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.12630175
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorARP44Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 2ms.
+2020-10-15 16:25:09 ERROR CottonDQLService:58 - Error while executing query queryId: "2164d7b3-9c8b-4603-98c5-0d2c8c528793"
+query {
+  from {
+    entity {
+      schema {
+        name: "cineast"
+      }
+      name: "features_AverageColorGrid8Normalized"
+    }
+  }
+  projection {
+    attributes {
+      key: "distance"
+      value: ""
+    }
+    attributes {
+      key: "id"
+      value: ""
+    }
+  }
+  where {
+    atomic {
+      attribute: "id"
+      op: IN
+      data {
+        stringData: "i_rDyrlpws7dpv9JwJ_1"
+      }
+      data {
+        stringData: "i_0oUewFoXZ9xL5WFz_1"
+      }
+      data {
+        stringData: "i_LZi3JzoxUyEsMGPj_1"
+      }
+    }
+  }
+  knn {
+    attribute: "feature"
+    k: 1500
+    query {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 56.75338
+        vector: -5.5072875
+        vector: 7.399399
+        vector: 88.4198
+        vector: -6.4309545
+        vector: 8.220227
+        vector: 77.70564
+        vector: -7.0611615
+        vector: 9.8843
+        vector: 58.918816
+        vector: -4.330729
+        vector: 6.1699915
+        vector: 5.336253
+        vector: -0.78558886
+        vector: 0.922627
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 75.22834
+        vector: -3.4729877
+        vector: 6.2744455
+        vector: 94.0169
+        vector: -3.7718475
+        vector: 6.265465
+        vector: 91.508835
+        vector: -4.1067257
+        vector: 7.5061975
+        vector: 88.08391
+        vector: -9.330594
+        vector: 12.755754
+        vector: 26.689453
+        vector: -4.5560913
+        vector: 5.7650404
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 25.519653
+        vector: -1.0530747
+        vector: 2.1033275
+        vector: 45.506275
+        vector: -0.5690226
+        vector: 1.9141277
+        vector: 48.39208
+        vector: -0.513963
+        vector: 2.108299
+        vector: 49.691113
+        vector: -1.012202
+        vector: 2.1004972
+        vector: 11.71509
+        vector: -0.46235356
+        vector: 0.79264945
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+    weights {
+      floatVector {
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.65748173
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.9245686
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.86358154
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.66747135
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.057006553
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 0.8593812
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 1.0
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.31065765
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.28828144
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.49096385
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.50904214
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.53764504
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.1293017
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+        vector: 0.0
+      }
+    }
+  }
+  limit: 1500
+}
+
+org.vitrivr.cottontail.model.exceptions.QueryException$QueryBindException: Failed to bind 'cineast.features_AverageColorGrid8Normalized'. Entity does not exist!
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleFrom(GrpcQueryBinder.kt:117)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBindSimpleQuery(GrpcQueryBinder.kt:70)
+	at org.vitrivr.cottontail.server.grpc.helper.GrpcQueryBinder.parseAndBind(GrpcQueryBinder.kt:60)
+	at org.vitrivr.cottontail.server.grpc.services.CottonDQLService.query(CottonDQLService.kt:40)
+	at org.vitrivr.cottontail.grpc.CottonDQLGrpc$MethodHandlers.invoke(CottonDQLGrpc.java:341)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:172)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:331)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:818)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 2ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query 2164d7b3-9c8b-4603-98c5-0d2c8c528793 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-233 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-233 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-233 took 0ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-233 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-662 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-662 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:150 - Sending back 3 rows for position 0 of query cin-662 took 1ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-662 took 2ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-752 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-781 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-357 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-781 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-752 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-357 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-752 yielded no results.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-781 yielded no results.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-781 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-357 yielded no results.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-357 took 1ms.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-752 took 1ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:41 - Parsing & binding query cin-230 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:46 - Executing query cin-230 took 0ms.
+2020-10-15 16:25:09 TRACE CottonDQLService:153 - Position 0 of query cin-230 yielded no results.
+2020-10-15 16:25:09 INFO  CottonDQLService:52 - Query cin-230 took 1ms.
 Stopping now...
-2020-10-12 14:52:21 INFO  CottontailGrpcServer:70 - Cottontail DB was shut down. Have a binky day!
+2020-10-15 16:25:25 INFO  CottontailGrpcServer:70 - Cottontail DB was shut down. Have a binky day!
